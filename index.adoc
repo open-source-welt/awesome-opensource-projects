@@ -1,41 +1,299 @@
-= Congratulations!
+= Awesome Open Source Projects
 :showtitle:
-:page-title: Jekyll AsciiDoc Quickstart
-:page-description: A forkable blog-ready Jekyll site using AsciiDoc
+:page-title: JAwesome Open Source Projects
+:page-description: A curated, categorized table of awesome¹ open source projects
 
-You've successfully set up and deployed an Jekyll website powered by AsciiDoc using the https://github.com/asciidoctor/jekyll-asciidoc-quickstart[*Jekyll AsciiDoc Quickstart*] project. If everything is in order then changes to the AsciiDoc content will be automatically published to your `gh_pages` branch and hosted via Jekyll and Github.
+link:https://awesome.re[image:https://awesome.re/badge.svg[Awesome]]
 
-== What do I do now?
+:toc:
+:toc-placement!:
 
-Now that you've set up your website to run with AsciiDoc, you have a ton of options available to you.
+> A curated, categorized table of awesome¹ open source projects. 
 
-=== Edit content
+link:https://commons.wikimedia.org/wiki/File:121212_2_OpenSwissKnife.png[image:https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/121212_2_OpenSwissKnife.png/800px-121212_2_OpenSwissKnife.png[OpenSourceSwissKnife]]
 
-Editing content is very simple. The easiest way to update your blog is to clone your repository, fire up your favorite text editor and run the content locally. To do this run the `jekyll serve` command and open a web browser to http://localhost:4000. Jekyll will automatically process and host changes to the content. Also make sure that your `Gemfile` is up-to-date with the current version of your gem sources, e.g. with `gem list --local | grep "jekyll"`.
+toc::[]
 
-You may also edit your content directly on Github. To do this, navigate the browser the file you wish to edit, click the pensil (edit) button in the upper right hand corner of the view and make your changes. When you're finished, commit your changes. This will trigger Travis to generate and publish a new website including your changes.
+`Categories and projects are sorted alphabetically.`
 
-For blog posts, Jekyll will recognize files under the `_post` directory, parse the name and place it in the list of posts. These will show up under the `site.posts` variable.
+== Software
 
-To display a list of posts, use Jekyll syntax similar to the following:
+=== Audio
 
-[source, html]
-----
-{% for post in site.posts limit: 5 %}
-<a href=".{{ post.url }}">{{ post.navtitle }}</a>
-{% endfor %}
-----
+[width="100%",cols="20%,20%,20%,20%,20%",options="header",]
+|===
 
-=== Update Look and feel
+|ℹ️ Name
+|🌅 Logo
+|⭐ Stars
+|🔍 Insights
+|🆕 Install
 
-The layout provided with the https://github.com/asciidoctor/jekyll-asciidoc-quickstart[Jekyll AsciiDoc Quickstart] project is based on http://foundation.zurb.com[Foundation], a responsive design css framework. You're free to update the layout by editing the `_layouts/default.html` file and css under the `css` directory.
+// ===========================
+//            MuseScore
+// ===========================
+// ℹ️
+|link:https://musescore.org[MuseScore]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/MuseScore_logo.png/240px-MuseScore_logo.png[MuseScore,64]
+// ⭐
+|image:https://img.shields.io/github/stars/musescore?style=social[GitHub Repo stars]
+// 🔍
+|https://github.com/musescore/
+|link:https://community.chocolatey.org/packages/musescore[🍫]
 
-//This blog layout is based on the http://foundation.zurb.com/templates-previews-sites-f6/blog.html[Blog template].
+link:https://formulae.brew.sh/cask/musescore[🍺]
+// ===========================
 
-=== Reference documentation
+|===
 
-The following links will help with detailed explanations on Jekyll and AsciiDoc.
+=== Communication
 
-* http://jekyllrb.com[Jekyll]
-* http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Quick Reference]
-* http://asciidoctor.org[Asciidoctor]
+[width="100%",cols="20%,20%,20%,20%,20%",options="header",]
+|===
+
+|ℹ️ Name
+|🌅 Logo
+|⭐ Stars
+|🔍 Insights
+|🆕 Install
+
+// ===========================
+//            Element
+// ===========================
+// ℹ️
+|link:https://www.element.io/[Element]
+// 🌅
+|image:https://github.com/vector-im/logos/raw/master/element/Element%20Logomark%20%20-%20Transparent%20-%2064px.png[Element,64]
+// ⭐
+|image:https://img.shields.io/github/stars/vector-im?style=social[GitHub Repo stars]
+// 🔍
+|https://github.com/vector-im
+|link:https://community.chocolatey.org/packages/element-desktop[🍫]
+
+link:https://formulae.brew.sh/cask/element[🍺]
+// ===========================
+
+// ===========================
+//            Signal
+// ===========================
+// ℹ️
+|link:https://signal.org[Signal]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/8/8d/Signal-Logo.svg[Signal,64]
+// ⭐
+|image:https://img.shields.io/github/stars/signalapp?style=social[GitHub Repo stars]
+// 🔍
+|https://github.com/signalapp/
+|link:https://community.chocolatey.org/packages/signal[🍫]
+
+link:https://formulae.brew.sh/cask/signal[🍺]
+// ===========================
+
+|===
+
+=== Graphics & Design
+
+[width="100%",cols="20%,20%,20%,20%,20%",options="header",]
+|===
+
+|ℹ️ Name
+|🌅 Logo
+|⭐ Stars
+|🔍 Insights
+|🆕 Install
+
+// ===========================
+//            Darktable
+// ===========================
+// ℹ️
+|link:https://www.darktable.org[Darktable]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Darktable_icon.svg/240px-Darktable_icon.svg.png[Darktable,64]
+// ⭐
+|image:https://img.shields.io/github/stars/darktable-org/darktable?style=social[GitHub Repo stars]
+// 🔍
+|link:https://bestpractices.coreinfrastructure.org/en/projects/470[image:https://bestpractices.coreinfrastructure.org/projects/470/badge[Open Source Security Foundation (OpenSSF) best practices badge]]
+
+https://github.com/darktable-org/darktable
+|link:https://community.chocolatey.org/packages/darktable[🍫]
+
+link:https://formulae.brew.sh/cask/darktable[🍺]
+// ===========================
+
+// ===========================
+//            GIMP
+// ===========================
+// ℹ️
+|link:https://www.gimp.org[GIMP]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/b/be/Wilber-gimp.png[GIMP,64]
+// ⭐
+|image:https://img.shields.io/gitlab/stars/GNOME/gimp?gitlab_url=https%3A%2F%2Fgitlab.gnome.org&style=social[GitLab stars]
+
+image:https://img.shields.io/github/stars/GNOME/gimp?style=social[GitHub Repo stars]
+// 🔍
+|link:https://bestpractices.coreinfrastructure.org/en/projects/437[image:https://bestpractices.coreinfrastructure.org/projects/437/badge[Open Source Security Foundation (OpenSSF) best practices badge]]
+
+https://gitlab.gnome.org/GNOME/gimp
+|link:https://community.chocolatey.org/packages/gimp[🍫]
+
+link:https://formulae.brew.sh/cask/gimp[🍺]
+// ===========================
+
+// ===========================
+//            Inkscape
+// ===========================
+// ℹ️
+|link:http://inkscape.org[Inkscape]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Inkscape_Logo.svg/128px-Inkscape_Logo.svg.png[Inkscape,64]
+// ⭐
+|image:https://img.shields.io/gitlab/stars/inkscape/inkscape?style=social[GitLab stars]
+
+image:https://img.shields.io/github/stars/inkscape/inkscape?style=social[GitHub Repo stars]
+// 🔍
+|https://gitlab.com/inkscape/inkscape
+|link:https://community.chocolatey.org/packages/inkscape[🍫]
+
+link:https://formulae.brew.sh/cask/inkscape[🍺]
+// ===========================
+
+// ===========================
+//            Krita
+// ===========================
+// ℹ️
+|link:https://krita.org[Krita]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Calligrakrita-base.svg/240px-Calligrakrita-base.svg.png[Krita,64]
+// ⭐
+|image:https://img.shields.io/gitlab/stars/graphics/krita?gitlab_url=https%3A%2F%2Finvent.kde.org&style=social[GitLab stars]
+
+image:https://img.shields.io/github/stars/KDE/krita?style=social[GitHub Repo stars]
+// 🔍
+|https://invent.kde.org/graphics/krita
+|link:https://community.chocolatey.org/packages/krita[🍫]
+
+link:https://formulae.brew.sh/cask/krita[🍺]
+// ===========================
+
+// ===========================
+//            Penpot
+// ===========================
+// ℹ️
+|link:https://penpot.app[Penpot]
+// 🌅
+|image:https://avatars.githubusercontent.com/u/30179644?s=200&v=4[Penpot,64]
+// ⭐
+|image:https://img.shields.io/github/stars/penpot/penpot?style=social[GitHub Repo stars]
+// 🔍
+|https://github.com/penpot/penpot
+|
+// ===========================
+
+// ===========================
+//            RawTherapee
+// ===========================
+// ℹ️
+|link:http://rawtherapee.com[RawTherapee]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/RawTherapee_logo-circle.svg/240px-RawTherapee_logo-circle.svg.png[RawTherapee,64]
+// ⭐
+|image:https://img.shields.io/github/stars/Beep6581/RawTherapee?style=social[GitHub Repo stars]
+// 🔍
+|https://github.com/Beep6581/RawTherapee
+|link:https://community.chocolatey.org/packages/RawTherapee[🍫]
+// ===========================
+
+|===
+
+=== Office
+
+[width="100%",cols="20%,20%,20%,20%,20%",options="header",]
+|===
+
+|ℹ️ Name
+|🌅 Logo
+|⭐ Stars
+|🔍 Insights
+|🆕 Install
+
+// ===========================
+//            LibreOffice
+// ===========================
+// ℹ️
+|link:http://libreoffice.org[LibreOffice]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/a/aa/Logo-libreoffice.svg[LibreOffice,64]
+// ⭐
+|image:https://img.shields.io/github/stars/libreoffice?style=social[GitHub Repo stars]
+// 🔍
+|link:https://bestpractices.coreinfrastructure.org/en/projects/307[image:https://bestpractices.coreinfrastructure.org/projects/307/badge[Open Source Security Foundation (OpenSSF) best practices badge]]
+
+https://github.com/libreoffice/
+|link:https://community.chocolatey.org/packages/libreoffice-fresh[🍫]
+
+link:https://formulae.brew.sh/cask/libreoffice[🍺]
+// ===========================
+
+|===
+
+=== Recording
+
+[width="100%",cols="20%,20%,20%,20%,20%",options="header",]
+|===
+
+|ℹ️ Name
+|🌅 Logo
+|⭐ Stars
+|🔍 Insights
+|🆕 Install
+
+// ===========================
+//            Greenshot
+// ===========================
+// ℹ️
+|link:https://getgreenshot.org[Greenshot]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/1/12/Greenshot_logo.svg[Greenshot,64]
+// ⭐
+|image:https://img.shields.io/github/stars/greenshot?style=social[GitHub Repo stars]
+// 🔍
+|https://github.com/greenshot
+|link:https://community.chocolatey.org/packages/greenshot[🍫]
+// ===========================
+
+// ===========================
+//            OBS Studio
+// ===========================
+// ℹ️
+|link:https://obsproject.com[OBS Studio]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Open_Broadcaster_Software_Logo.png/240px-Open_Broadcaster_Software_Logo.png[OBS Studio,64]
+// ⭐
+|image:https://img.shields.io/github/stars/obsproject?style=social[GitHub Repo stars]
+// 🔍
+|https://github.com/obsproject/
+|link:https://community.chocolatey.org/packages/obs-studio[🍫]
+
+link:https://formulae.brew.sh/cask/obs[🍺]
+// ===========================
+
+// ===========================
+//            ShareX
+// ===========================
+// ℹ️
+|link:https://getsharex.com[ShareX]
+// 🌅
+|image:https://upload.wikimedia.org/wikipedia/commons/d/d1/ShareX_Logo.png[ShareX,64]
+// ⭐
+|image:https://img.shields.io/github/stars/ShareX?style=social[GitHub Repo stars]
+// 🔍
+|https://github.com/ShareX
+|link:https://community.chocolatey.org/packages/sharex[🍫]
+// ===========================
+
+|===
+
+== ¹ Awesome Open Source Project Criteria
+- 100+ public ⭐s or similar: badge must be available
