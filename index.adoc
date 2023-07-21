@@ -1,6 +1,6 @@
 = Awesome Open Source Projects
 :showtitle:
-:page-title: JAwesome Open Source Projects
+:page-title: Awesome Open Source Projects
 :page-description: A curated, categorized table of awesome¹ open source projects
 
 link:https://awesome.re[image:https://awesome.re/badge.svg[Awesome]]
